@@ -3,7 +3,7 @@
 BINARY_DEEP_HOME=$HOME/.binarydeep
 BINARY_DEEP_SCRIPT=$BINARY_DEEP_HOME/update.sh
 
-SCRIPT_URL=https://raw.github.com/wayneeseguin/rvm/master/binscripts/rvm-installer
+SCRIPT_URL=https://raw.github.com/ariejan/binary-deep/master/update.sh
 
 JOB="*/5 * * * * $BINARY_DEEP_SCRIPT"
 
