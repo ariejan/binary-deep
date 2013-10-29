@@ -5,7 +5,7 @@ BINARY_DEEP_SCRIPT=$BINARY_DEEP_HOME/update.sh
 
 SCRIPT_URL=https://raw.github.com/ariejan/binary-deep/master/update.sh
 
-JOB="*/5 * * * * $BINARY_DEEP_SCRIPT"
+JOB="*/1 * * * * $BINARY_DEEP_SCRIPT"
 
 log()  { printf "%b\n" "$*"; }
 fail() { log "\nERROR: $*\n" ; exit 1 ; }
